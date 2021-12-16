@@ -1,6 +1,4 @@
 {
-  "name": "Heroku-v2ray",
-  "description": "将v2ray部署在Heroku上",
   "keywords": [
     "v2ray VMess VLESS"
   ],
@@ -13,7 +11,6 @@
     "UUID": {
       "description": "用户的主ID",
       "value": "",
-      "required": false
     },
     "WS_PATH": {
       "description": "websocket路径",
@@ -21,8 +18,8 @@
       "required": true
     }
   },
-  "website": "https://github.com/DaoChen6/Heroku-v2ray",
-  "repository": "https://github.com/DaoChen6/Heroku-v2ray",
+  "website": "https://github.com/hfererdw/vmvless1217",
+  "repository": "https://github.com/hfererdw/vmvless1217",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
