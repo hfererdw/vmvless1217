@@ -1,4 +1,3 @@
-#!/bin/sh
 # V2Ray generate configuration
 # Download and install V2Ray
 config_path=$PROTOCOL"_ws_tls.json"
@@ -11,7 +10,6 @@ install -m 755 /tmp/v2ray/v2ctl /usr/local/bin/v2ctl
 install -d /usr/local/etc/v2ray
 envsubst '\$UUID,\$WS_PATH' < $config_path > /usr/local/etc/v2ray/config.json
 # MK TEST FILES
-mkdir /opt/test
 cd /opt/test
 dd if=/dev/zero of=100mb.bin bs=100M count=1
 dd if=/dev/zero of=10mb.bin bs=10M count=1
